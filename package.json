@@ -1,6 +1,8 @@
 {
   "name": "portfolio-3d",
   "private": true,
+  "homepage": "./",
+  "main": "index.js",
 
   "version": "0.0.0",
   "type": "module",
