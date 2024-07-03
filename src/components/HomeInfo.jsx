@@ -22,7 +22,7 @@ const renderContent = {
     ),
     2: (
         <InfoBox 
-            text="Passionné par le développement web, j'ai choisi de suivre la formation Concepteur Développeur d'Applications au Réacteur en alternance pour mettre en pratique ce que j'ai appris en autodidacte et en formation au sein d'une entreprise innovante."
+            text="Passionné par le développement web, j'ai choisi de suivre la formation Concepteur Développeur d'Applications à la Wild Code School en alternance pour mettre en pratique ce que j'ai appris en autodidacte et en formation au sein d'une entreprise innovante."
             link="/about"
             btnText="Plus encore"
         />
