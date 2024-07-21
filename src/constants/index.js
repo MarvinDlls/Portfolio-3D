@@ -203,8 +203,8 @@ export const projects = [
         iconUrl: car,
         theme: 'btn-back-black',
         name: 'Movie App',
-        description: "Développement d'une application de films avec l'API de OMDb API avec React.js.",
-        link: 'https://marvindlls.github.io/movie-app',
+        description: "Développement d'une todo app avec Next.js, TypeScript et React.js",
+        link: 'https://todo-next-two-delta.vercel.app/',
     },
     { 
         iconUrl: motion,
