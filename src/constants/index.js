@@ -48,6 +48,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
+    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -60,6 +65,11 @@ export const skills = [
     {
         imageUrl: express,
         name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: sass,
+        name: "Sass",
         type: "Backend",
     },
     {
@@ -202,7 +212,7 @@ export const projects = [
     {
         iconUrl: car,
         theme: 'btn-back-black',
-        name: 'Movie App',
+        name: 'Todo App v2',
         description: "Développement d'une todo app avec Next.js, TypeScript et React.js",
         link: 'https://todo-next-two-delta.vercel.app/',
     },

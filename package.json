@@ -3,7 +3,6 @@
   "private": true,
   "homepage": "https://MarvinDlls/Portfolio-3D",
   "main": "index.js",
-
   "version": "0.0.0",
   "type": "module",
   "scripts": {
