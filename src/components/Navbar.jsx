@@ -13,12 +13,12 @@ const Navbar = () => {
             <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black' }>
                 Projets
             </NavLink>
-            <a href="https://github.com/MarvinDlls" target="_blank" rel="noopener noreferrer" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black' }>
+            <NavLink to="https://github.com/MarvinDlls" target="_blank" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black' }>
                 GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/marvin-dillenseger/" target="_blank" rel="noopener noreferrer" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black' }>
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/in/marvin-dillenseger/" target="_blank" className={({ isActive }) => isActive ? 'text-blue-500' : 'text-black' }>
                 LinkedIn
-            </a>
+            </NavLink>
         </nav>
     </header>
   )

@@ -17,12 +17,12 @@ const renderContent = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Salut, je m'appelle <span className='font-semibold'>Marvin</span> 👋
             <br/>
-            Et je suis Développeur en quête d'une alternance
+            Et je suis Développeur en quête d'un stage
         </h1>
     ),
     2: (
         <InfoBox 
-            text="Passionné par le développement web, j'ai choisi de suivre la formation Concepteur Développeur d'Applications à la Wild Code School en alternance pour mettre en pratique ce que j'ai appris en autodidacte et en formation au sein d'une entreprise innovante."
+            text="Passionné par le développement web, j'ai choisi de suivre la formation Concepteur Développeur d'Applications chez PREPAVENIR Formation pour mettre en pratique ce que j'ai appris en autodidacte et pouvoir suivre une formation qualifiante qui me permettra d'approfondir mes compétences."
             link="/about"
             btnText="Plus encore"
         />
@@ -36,7 +36,7 @@ const renderContent = {
     ),
     4: (
         <InfoBox 
-            text="Besoin d'un alternant en tant que développeur? Je serais ravi de répondre à vos besoins !"
+            text="Besoin d'un stagiaire en tant que développeur? Je serais ravi de répondre à vos besoins !"
             link="/contact"
             btnText="Contactez-moi"
         />
