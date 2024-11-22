@@ -11,9 +11,14 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Depuis peu, j'ai pris la décison de suivre la formation de Développeur Concepteur d'Applications au sein de la Wild Code School
-           en alternance puisque j’avais déjà une quelques notions pour le développement web, 
-           je me suis lancé dedans car c’est le domaine où je me sens le plus à l’aise. </p>
+        <p>Actuellement, je suis en formation Bac+3 de Concepteur 
+          Développeur d'Applications chez Prepavenir. 
+          Ayant déjà des notions en développement web, j'ai choisi de me 
+          lancer dans ce domaine car c'est celui où je me sens 
+          le plus à l'aise. La formation inclut un stage 
+          en entreprise en fin de parcours, offrant une 
+          excellente opportunité pour 
+          mettre en pratique les compétences acquises.</p>
       </div>
 
       <div className='py-10 flex flex-col'>
