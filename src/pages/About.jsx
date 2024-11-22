@@ -32,7 +32,7 @@ const About = () => {
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-1/2 h-1/2 object-contain cursor-pointer'
                 />
               </div>
             </div>
