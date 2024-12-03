@@ -1,4 +1,7 @@
 import { meta, shopify, starbucks, tesla, hero } from "../assets/images";
+import meridien from '../assets/meridien.png';
+import tache from '../assets/tache.svg';
+import globe from '../assets/globe.svg';
 import {
     car,
     contact,
@@ -96,6 +99,18 @@ export const skills = [
 ];
 
 export const experiences = [
+
+    {
+        title: "Technicien Informatique",
+        company_name: "Le Méridien Étoile",
+        icon: meridien,
+        iconBg: "#54B4B1",
+        date: "Mai 2024 - Juin 2024",
+        points: [
+            "Installation de logiciels comme OPERA (PMS).",
+            "Configuration du système d'exploitation.",
+        ],
+    },
     {
         title: "Préparateur de commande",
         company_name: "Amazon",
@@ -182,8 +197,15 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: globe,
+        theme: 'btn-back-orange',
+        name: 'Landing Page 3D',
+        description: 'Création d’une landing page en 3D avec React et ThreeJS',
+        link: 'https://landing-page-3-d-seven.vercel.app/',
+    },
+    {
         iconUrl: redux,
-        theme: 'btn-back-red',
+        theme: 'btn-back-black',
         name: 'To-do list App',
         description: 'Création d’une liste de tâches avec Html, Css et JavaScript',
         link: 'https://marvindlls.github.io/to-do-list-v2',
@@ -210,8 +232,8 @@ export const projects = [
         link: 'https://marvindlls.github.io/restau-concept/',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-black',
+        iconUrl: tache,
+        theme: 'btn-back-red',
         name: 'Todo App v2',
         description: "Développement d'une todo app avec Next.js, TypeScript et React.js",
         link: 'https://todo-next-two-delta.vercel.app/',
