@@ -2,6 +2,7 @@ import { meta, shopify, starbucks, tesla, hero } from "../assets/images";
 import meridien from '../assets/meridien.png';
 import tache from '../assets/tache.svg';
 import globe from '../assets/globe.svg';
+import python from '../assets/python.png'
 import {
     car,
     contact,
@@ -31,16 +32,6 @@ import {
 
 export const skills = [
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
@@ -66,6 +57,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: python,
+        name: "Python",
+        type: "Frontend",
+    },
+    {
         imageUrl: express,
         name: "Express",
         type: "Backend",
@@ -74,16 +70,6 @@ export const skills = [
         imageUrl: sass,
         name: "Sass",
         type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
     },
     {
         imageUrl: mongodb,
