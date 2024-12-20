@@ -2,7 +2,8 @@ import { meta, shopify, starbucks, tesla, hero } from "../assets/images";
 import meridien from '../assets/meridien.png';
 import tache from '../assets/tache.svg';
 import globe from '../assets/globe.svg';
-import python from '../assets/python.png'
+import python from '../assets/python.png';
+import ecole from '../assets/ecole.png';
 import {
     car,
     contact,
@@ -182,6 +183,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: ecole,
+        theme: 'btn-back-pink',
+        name: 'Site de recette de cuisine',
+        description: 'Création d’un site de recette de cuisine du style de Marmiton avec React, NodeJS et Express',
+        link: 'https://projet-ecf-marvin.vercel.app/',
+    },
     {
         iconUrl: globe,
         theme: 'btn-back-orange',
