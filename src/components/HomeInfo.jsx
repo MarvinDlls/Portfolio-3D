@@ -17,7 +17,7 @@ const renderContent = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Salut, je m'appelle <span className='font-semibold'>Marvin</span> 👋
             <br/>
-            Et je suis Développeur en quête d'un stage
+            Et je suis Développeur en quête d'une alternance
         </h1>
     ),
     2: (
