@@ -4,6 +4,7 @@ import tache from '../assets/tache.svg';
 import globe from '../assets/globe.svg';
 import python from '../assets/python.png';
 import ecole from '../assets/ecole.png';
+import ia from '../assets/images/ai.png';
 import {
     car,
     contact,
@@ -189,6 +190,13 @@ export const projects = [
         name: 'Site de recette de cuisine',
         description: 'Création d’un site de recette de cuisine du style de Marmiton avec React, NodeJS et Express',
         link: 'https://projet-ecf-marvin.vercel.app/',
+    },
+    {
+        iconUrl: ia,
+        theme: 'btn-back-yellow',
+        name: "Application de Machine Learning",
+        description: "Application web capable de détecter et reconnaître des objets ou des humains dans des images avec React et Tensorflow", 
+        link: 'https://ia-reconnaissance-image.vercel.app/'
     },
     {
         iconUrl: globe,
