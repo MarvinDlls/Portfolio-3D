@@ -1,38 +1,45 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import {skills, experiences, socialLinks} from '../constants';
-import CTA from '../components/CTA';
-import CTAA from '../components/CTAA';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { skills, experiences, socialLinks } from "../constants";
+import CTA from "../components/CTA";
+import CTAA from "../components/CTAA";
 
 const About = () => {
   return (
-    <section className='max-container'>
-      <h1 className='head-text'>Salut, c'est <span className='blue-gradient_text font-semibold drop-shadow'>Marvin</span>
+    <section className="max-container">
+      <h1 className="head-text">
+        Salut, c'est{" "}
+        <span className="blue-gradient_text font-semibold drop-shadow">
+          Marvin
+        </span>
       </h1>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Actuellement, je suis en formation Bac+3 de Concepteur 
-          Développeur d'Applications chez Prepavenir. 
-          Ayant déjà des notions en développement web, j'ai choisi de me 
-          lancer dans ce domaine car c'est celui où je me sens 
-          le plus à l'aise. La formation inclut un stage 
-          en entreprise en fin de parcours, offrant une 
-          excellente opportunité pour 
-          mettre en pratique les compétences acquises.</p>
+      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <p>
+          Actuellement en formation Bac+3 de Concepteur Développeur
+          d'Applications chez Prepavenir, je vais effectuer un stage de 3 mois
+          en tant que développeur Full-Stack à partir de Mars 2025. À la rentrée 2025, je souhaite
+          intégrer un Master Architecte des Systèmes d'Information chez Epitech,
+          en alternance, pour une durée de 24 mois. Je suis donc à la recherche
+          d'une entreprise pour m'accompagner dans ce projet.
+        </p>
       </div>
 
-      <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>Mes Skills</h3>
+      <div className="py-10 flex flex-col">
+        <h3 className="subhead-text">Mes Skills</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
+            <div className="block-container w-20 h-20" key={skill.name}>
+              <div className="btn-back rounded-xl" />
+              <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain cursor-pointer'
+                  className="w-1/2 h-1/2 object-contain cursor-pointer"
                 />
               </div>
             </div>
@@ -40,53 +47,66 @@ const About = () => {
         </div>
       </div>
 
-      <div className='py-16'>
-        <h3 className='subhead-text'>Expériences professionnelles</h3>
-          <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>J'ai acquis une expérience polyvalente en travaillant dans divers secteurs. 
-            Chez KFC et Paul, j'ai occupé le poste d'employé polyvalent, 
-            où j'ai développé mes compétences en travail d'équipe et en adaptabilité. 
-            Mon travail de jardinage dans un parc m'a permis de cultiver ma créativité et mon sens de l'initiative. 
-            En tant que magasinier à la BNF, j'ai affiné mon sens de l'organisation et mon attention aux détails. 
-            Enfin, mon rôle de préparateur de commandes chez Amazon a renforcé ma capacité à travailler efficacement sous pression. 
-            Toutes ces expériences m'ont permis d'acquérir des compétences transférables précieuses pour mon avenir professionnel.
+      <div className="py-16">
+        <h3 className="subhead-text">Expériences professionnelles</h3>
+        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+          <p>
+            J'ai acquis une expérience polyvalente en travaillant dans divers
+            secteurs. Chez KFC et Paul, j'ai occupé le poste d'employé
+            polyvalent, où j'ai développé mes compétences en travail d'équipe et
+            en adaptabilité. Mon travail de jardinage dans un parc m'a permis de
+            cultiver ma créativité et mon sens de l'initiative. En tant que
+            magasinier à la BNF, j'ai affiné mon sens de l'organisation et mon
+            attention aux détails. Enfin, mon rôle de préparateur de commandes
+            chez Amazon a renforcé ma capacité à travailler efficacement sous
+            pression. Toutes ces expériences m'ont permis d'acquérir des
+            compétences transférables précieuses pour mon avenir professionnel.
             <br></br>
-            Voici un aperçu de mes missions:</p>
+            Voici un aperçu de mes missions:
+          </p>
         </div>
 
-        <div className='mt-12 flex'>
+        <div className="mt-12 flex">
           <VerticalTimeline>
             {experiences.map((experience) => (
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
-                icon={<div className='flex justify-center items-center w-full h-full'>
-                  <img 
-                    src={experience.icon}
-                    alt={experience.company_name}
-                    className='w-[60%] h-[60%] object-contain'
-                  />
-                </div>}
+                icon={
+                  <div className="flex justify-center items-center w-full h-full">
+                    <img
+                      src={experience.icon}
+                      alt={experience.company_name}
+                      className="w-[60%] h-[60%] object-contain"
+                    />
+                  </div>
+                }
                 iconStyle={{ background: experience.iconBg }}
                 contentStyle={{
-                  borderBottom: '8px',
-                  borderStyle: 'solid',
+                  borderBottom: "8px",
+                  borderStyle: "solid",
                   borderBottomColor: experience.iconBg,
-                  boxShadow: 'none',
+                  boxShadow: "none",
                 }}
               >
                 <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                  <h3 className="text-black text-xl font-poppins font-semibold">
                     {experience.title}
                   </h3>
-                  <p className='text-black-500 font-medium font-base' style={{margin:0}}>
+                  <p
+                    className="text-black-500 font-medium font-base"
+                    style={{ margin: 0 }}
+                  >
                     {experience.company_name}
                   </p>
                 </div>
 
-                <ul className='my-5 list-disc ml-5 space-y-2'>
+                <ul className="my-5 list-disc ml-5 space-y-2">
                   {experience.points.map((point, index) => (
-                    <li key={`experience-point-${index}`} className='text-black-500/50 font-normal pl-1 text-sm'>
+                    <li
+                      key={`experience-point-${index}`}
+                      className="text-black-500/50 font-normal pl-1 text-sm"
+                    >
                       {point}
                     </li>
                   ))}
@@ -97,7 +117,7 @@ const About = () => {
         </div>
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className="border-slate-200" />
 
       <CTA />
     </section>

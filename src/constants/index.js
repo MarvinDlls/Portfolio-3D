@@ -2,7 +2,7 @@ import { meta, shopify, starbucks, tesla, hero } from "../assets/images";
 import meridien from '../assets/meridien.png';
 import tache from '../assets/tache.svg';
 import globe from '../assets/globe.svg';
-import python from '../assets/python.png';
+import angular from '../assets/angular.png';
 import ecole from '../assets/ecole.png';
 import ia from '../assets/images/ai.png';
 import {
@@ -59,8 +59,8 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: python,
-        name: "Python",
+        imageUrl: angular,
+        name: "Angular",
         type: "Frontend",
     },
     {
