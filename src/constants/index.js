@@ -5,6 +5,7 @@ import globe from '../assets/globe.svg';
 import angular from '../assets/angular.png';
 import ecole from '../assets/ecole.png';
 import ia from '../assets/images/ai.png';
+import message from '../assets/images/message.svg';
 import {
     car,
     contact,
@@ -184,6 +185,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: message,
+        theme: 'btn-back-green',
+        name: 'Application de messagerie',
+        description: 'Création d’une application de messagerie pour ajouter des amis et discuter avec. Développée avec Angular, PostreSQL et TypeScript',
+        link: 'https://chat-app-kappa-six-47.vercel.app/',
+    },
     {
         iconUrl: ecole,
         theme: 'btn-back-pink',
