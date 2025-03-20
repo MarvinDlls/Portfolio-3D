@@ -175,7 +175,7 @@ export const projects = [
         iconUrl: message,
         theme: 'btn-back-green',
         name: 'Application de messagerie',
-        description: 'Création d’une application de messagerie pour ajouter des amis et discuter avec. Développée avec Angular, PostreSQL et TypeScript',
+        description: 'Création d’une application de messagerie pour ajouter des amis et discuter avec. Développée avec Angular, PostgreSQL et TypeScript',
         link: 'https://chat-app-kappa-six-47.vercel.app/',
     },
     {
