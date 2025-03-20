@@ -6,30 +6,22 @@ import angular from '../assets/angular.png';
 import ecole from '../assets/ecole.png';
 import ia from '../assets/images/ai.png';
 import message from '../assets/images/message.svg';
+import php from '../assets/icons/php.svg';
+import symfony from '../assets/symfony.png';
+import java from '../assets/java.png';
+import spring from '../assets/spring.png';
+import sql from '../assets/sql.png';
 import {
-    car,
     contact,
-    css,
-    estate,
-    express,
-    git,
     github,
-    html,
     javascript,
     linkedin,
-    mongodb,
     motion,
     mui,
-    nextjs,
-    nodejs,
-    pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
-    tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
 
@@ -37,21 +29,6 @@ export const skills = [
     {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
         type: "Frontend",
     },
     {
@@ -65,26 +42,35 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: php,
+        name: "Php",
         type: "Backend",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
+        imageUrl: symfony,
+        name: "Symfony",
         type: "Backend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
+        imageUrl: spring,
+        name: "Spring",
         type: "Backend",
-    }, 
-    
+    },
+    {
+        imageUrl: sql,
+        name: "Sql",
+        type: "Backend",
+    },
 ];
 
 export const experiences = [
